@@ -2,6 +2,8 @@ import time
 import socket
 import random
 import sys
+import argv
+
 def usage():
     print "\033[1;32m################################################"
     print "===========[\033[1;91mSecurity-DDOS Indonesia\033[1;32m]==========="
