@@ -5,6 +5,7 @@
 - pkg install git
 - pkg install python2
 - git clone https://github.com/XMrBeazD/SecurityDDOS
+- cd SecurityDDOS
 - cd SecurityDDOS.py
 - python2 SecurityDDOS.py <IP> <Port> <Packet>
 
